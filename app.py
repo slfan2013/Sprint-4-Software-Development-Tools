@@ -16,6 +16,9 @@ df['date_posted'] = pd.to_datetime(df['date_posted'], format='%Y-%m-%d')
 # Header
 st.header('Car Sales Advertisement Visualization')
 
+st.text("This project is a tool to visualize car sales advertisement data. It utilizes Streamlit for creating interactive web applications, Pandas for data manipulation, and Plotly Express for generating visualizations.")
+
+
 
 # Checkbox to toggle the chart
 column_to_plot_options = df.select_dtypes(include=['float', 'int']).columns.tolist()
