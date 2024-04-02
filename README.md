@@ -21,7 +21,7 @@ To run this project on your local machine, follow these steps:
 1. **Clone the Repository**: Clone the repository containing the project files to your local machine.
 
    ```
-   git clone <repository_url>
+   git clone https://github.com/slfan2013/Sprint-4-Software-Development-Tools
    ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using pip.
